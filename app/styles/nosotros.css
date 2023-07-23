@@ -1,0 +1,13 @@
+.nosotros .contenido {
+    display: grio;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+}
+
+@media (mid-width: 768px){
+    .nosotros .contenido {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+     
+    }
+}
